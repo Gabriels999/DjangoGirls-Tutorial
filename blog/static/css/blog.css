@@ -1,5 +1,6 @@
-body {
-  padding: 3%;
+h1 {
+  padding: 2%;
+  background-color: aqua;
 }
 .page-header {
   background-color: #b38463;
@@ -27,7 +28,7 @@ h4 {
 }
 
 .date {
-  color: #828282;
+  color: #a6a6a6;
 }
 
 .save {
@@ -54,5 +55,5 @@ h4 {
 
 .post h2 a,
 .post h2 a:visited {
-  color: #000000;
+  color: #db8f8f;
 }
