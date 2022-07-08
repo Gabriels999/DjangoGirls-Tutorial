@@ -1,11 +1,10 @@
-h1 {
+body {
   padding: 2%;
-  background-color: aqua;
 }
 .page-header {
   background-color: #b38463;
   margin-top: 0;
-  padding: 20px 20px 20px 40px;
+  padding: 10px 10px 10px 20px;
 }
 
 h1 > a,
@@ -23,12 +22,14 @@ a:hover {
 h1,
 h2,
 h3,
-h4 {
+h4,
+.author {
   font-family: "Lobster", cursive;
 }
 
-.date {
-  color: #a6a6a6;
+.date,
+.author {
+  color: #808080;
 }
 
 .save {
@@ -51,6 +52,7 @@ h4 {
 
 .post {
   margin-bottom: 70px;
+  padding: 4%;
 }
 
 .post h2 a,
