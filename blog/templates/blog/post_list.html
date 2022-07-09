@@ -1,7 +1,7 @@
 {% extends 'blog/base.html' %} {% block content %} {% for post in posts %}
 <div class="post">
   <div class="date">
-    <p>published: {{ post.published_date }}</p>
+    <p>created on: {{ post.created_date }}</p>
   </div>
   <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.tittle }}</a></h2>
   <p>{{ post.text|linebreaksbr }}</p>
